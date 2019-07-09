@@ -52,3 +52,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* CUSTOM RESET */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+h3 {
+	font-size: 48px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
