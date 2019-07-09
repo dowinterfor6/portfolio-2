@@ -1,6 +1,10 @@
 import React from 'react';
 import ProjectItem from './project_item';
 import '../assets/css/projects.css';
+import flappybaraCode from '../assets/images/flappybaraCode.png';
+import gochellaCode from '../assets/images/gochellaCode.png';
+import discourseCode from '../assets/images/discourseCode.png';
+import shadowfightCode from '../assets/images/shadowfightCode.png';
 
 const Projects = () => {
   const flappybaraDescription = 
@@ -31,25 +35,27 @@ const Projects = () => {
       using MongoDB and React/Redux.
     </p>
 
-
   return (
     <section className="projects-container">
-      <h1>hai dis is projects</h1>
       <ProjectItem 
-        projectName="Flappybara" 
-        projectDescription={flappybaraDescription}
+        name="Flappybara" 
+        description={flappybaraDescription}
+        background={flappybaraCode}
       />
       <ProjectItem
-        projectName="Go-Chella"
-        projectDescription={gochellaDescription}
+        name="Go-Chella"
+        description={gochellaDescription}
+        background={gochellaCode}
       />
       <ProjectItem
-        projectName="Discourse"
-        projectDescription={discourseDescription}
+        name="Discourse"
+        description={discourseDescription}
+        background={discourseCode}
       />
       <ProjectItem
-        projectName="ShadowFight"
-        projectDescription={shadowFightDescription}
+        name="Shadow Fight"
+        description={shadowFightDescription}
+        background={shadowfightCode}
       />
     </section>
   )
