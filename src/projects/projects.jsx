@@ -8,32 +8,24 @@ import shadowfightCode from '../assets/images/shadowfightCode.png';
 
 const Projects = () => {
   const flappybaraDescription = 
-    <p>
-      Inspired by the popular Flappy Bird game, Flappybara 
-      follows the flying adventures of a capybara. Built using 
-      Unity and C# (with Mono).
-    </p>;
+    "Inspired by the popular Flappy Bird game, Flappybara follows " +
+    "the flying adventures of a capybara. Built using Unity and " + 
+    "C# (with Mono).";
   
   const shadowFightDescription = 
-    <p>
-      A fighting game where you can punch your opponent to death 
-      with a backdrop of falling sakura petals or snow. Built using 
-      JavaScript and HTML5 Canvas.
-    </p>;
+    "A fighting game where you can punch your opponent to death " + 
+    "with a backdrop of falling sakura petals or snow. Built " + 
+    "using JavaScript and HTML5 Canvas.";
 
-  const discourseDescription =
-    <p>
-      An application that provides a platform for live text chat in 
-      private servers and channels. Built using React/Redux and 
-      Ruby on Rails.
-    </p>
+  const discourseDescription = 
+    "An application that provides a platform for live text chat " +
+    "in private servers and channels. Built using React/Redux " +
+    "and Ruby on Rails.";
 
   const gochellaDescription = 
-    <p>
-      An event planning web app to help organizers plan which acts 
-      their group will be attending throughout an event. Built 
-      using MongoDB and React/Redux.
-    </p>
+    "An event planning web app to help organizers plan which acts " + 
+    "their group will be attending throughout an event. Built " +
+    "using MongoDB and React/Redux."
 
   return (
     <section className="projects-container">

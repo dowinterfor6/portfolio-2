@@ -14,3 +14,9 @@
 .project-item-background {
   height: inherit;
 }
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
